@@ -1,6 +1,6 @@
 var express = require("express"),
 	fs = require('fs'),
-	port = process.env.PORT || 2595;
+	// port = process.env.PORT || 2595;
 
 var app = express();
 
@@ -19,6 +19,6 @@ app.get('/products', function (req, res){
 	res.json(products);
 });
 
-app.listen(port);
+// app.listen(port);
 
 console.log("Express server running at http://localhost:" + port);
