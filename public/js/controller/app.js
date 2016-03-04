@@ -36,5 +36,7 @@ var shopAppController = function($scope){
 		"thumb": "img/img-cardigan.png",
 		"quantityInStock": 10
 	}];
-	
+
 }
+
+angular.module('shopApp', []).controller('shopAppController', shopAppController);
